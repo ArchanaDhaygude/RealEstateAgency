@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Link required resources FOR Footer -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script>
+
+  <!-- Links for Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>Contact Us</title>
+
+</head>
+
+<body>
+  <header>
+    <section>
+      <nav class="navbar navbar-expand-sm bg-warning">
+        <!-- Brand -->
+        <div class="col-3">
+          <a class="navbar-brand" href="#">
+            <img src="assests/images/logo/logo7.png" width="90px" height="40px" alt="">
+          </a>
+        </div>
+        <div class="col-6">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Property
+              </a>
+              <div class="dropdown-menu bg-warning">
+                <a class="dropdown-item" href="rent.html">Rent</a>
+                <a class="dropdown-item" href="sell.html">Sell</a>
+                <a class="dropdown-item" href="homeloans.html">Home Loans</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html" class="active">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+  </header>
+
+  <!-- Main Content Section -->
+  <div class="main-content">
+    <div class="container p-5">
+      <div class="row">
+        <div class="col-4 col-sm-4 bg-light">
+          <h3>Contact Us</h3>
+          <form action="/action_page.php">
+            <div class="form-group m-2">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name">
+            </div>
+            <div class="form-group m-2">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email">
+            </div>
+            <div class="form-group m-2">
+              <label for="tel">Telephone</label>
+              <input type="tel" class="form-control" id="tel" placeholder="Enter your telephone numer" name="tel">
+            </div>
+            <div class="form-group m-2">
+              <label for="msg">Message</label>
+              <textarea name="textarea" id="" cols="41" rows="5" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn bg-warning m-2">Submit</button>
+          </form>
+        </div>
+
+        <!-- Iframe for Map -->
+        <div class="col-6 m-2 text-center">
+          <div>
+            <h4 class="h4">Find Us at Google Map</h4>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15136.754938239133!2d73.8215375!3d18.4751083!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2955d02d7e051%3A0xfb4fe756e230c82a!2sIndian%20Oil%20Petrol%20Pump!5e0!3m2!1sen!2sin!4v1630417912806!5m2!1sen!2sin" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-top bg-warning">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-lg-4 footer-about wow fadeInUp animated"
+              style="visibility: visible; animation-name: fadeInUp;">
+              <img class="logo-footer" src="assests/images/logo/logo7.png" width="90px" height="50px" alt="logo-footer"
+                data-at2x="assets/img/logo.png">
+              <p>
+                We are a young company always looking for new and creative ideas to help you with our
+                products in your everyday work.
+              </p>
+              <p><a href="#">Our Team</a></p>
+            </div>
+            <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown animated"
+              style="visibility: visible; animation-name: fadeInDown;">
+              <h3>Contact</h3>
+              <p><i class="fa fa-home"></i> Address: E-30, Raykar Park,<br> Manikbaug, Sinhgad Road, Pune</p>
+              <p><i class="fa fa-phone"></i> Phone:9561890217</p>
+              <p><i class="fa fa-envelope"></i> Email: <a
+                      href="mailto:archana.rd47@gmail.com">archana.rd47@gmail.com</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 footer-social wow fadeInUp animated"
+              style="visibility: visible; animation-name: fadeInUp;">
+              <h3>Follow us</h3>
+              <p>
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                <a href="#"><i class="icon ion-social-instagram"></i></a>
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 footer-copyright">
+              <p>© <a href="#">Silver Crest</a></p>
+            </div>
+            <div class="col-md-7 footer-menu">
+              <nav class="navbar navbar-dark navbar-expand-md">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link scroll-link" href="#top-content">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link scroll-link" href="#section-1">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link scroll-link" href="#section-2">Property</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link scroll-link" href="#section-3">Contact Us</a>
+                  </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>
